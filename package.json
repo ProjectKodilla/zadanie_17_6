@@ -4,7 +4,8 @@
   "description": "Web Developer Bootcamp Kodilla Pug and ExpressJS ;-)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/ProjectKodilla/zadanie_17_6/issues"
   },
-  "homepage": "https://github.com/ProjectKodilla/zadanie_17_6#readme"
+  "homepage": "https://github.com/ProjectKodilla/zadanie_17_6#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "pug": "^2.0.3"
+  }
 }
